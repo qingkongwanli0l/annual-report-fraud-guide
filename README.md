@@ -4,7 +4,7 @@
 
 本项目围绕企业年报中的财务舞弊风险，提供知识图谱、排查脑图和 Word 指南。每条排查路径遵循 **舞弊手法 → 年报异常信号 → 披露位置 → 核查方法**，并保留必要的适用条件。
 
-[进入项目网站](https://qingkongwanli0l.github.io/annual-report-fraud-guide/) · [知识图谱](https://qingkongwanli0l.github.io/annual-report-fraud-guide/graph.html) · [排查脑图](https://qingkongwanli0l.github.io/annual-report-fraud-guide/mindmap.html) · [Word 指南](docs/downloads/guide.docx)
+[进入项目网站](https://qingkongwanli0l.github.io/annual-report-fraud-guide/) · [知识图谱](https://qingkongwanli0l.github.io/annual-report-fraud-guide/graph.html) · [排查脑图](https://qingkongwanli0l.github.io/annual-report-fraud-guide/mindmap.html) · [Word 指南](https://qingkongwanli0l.github.io/annual-report-fraud-guide/guide.html)
 
 ## 知识图谱
 
@@ -28,9 +28,9 @@
 
 ## Word 指南
 
-将全部排查条目编排为四栏对照表，配有指标速查和适用条件，便于完整阅读、批注和打印。
+将全部排查条目编排为四栏对照表，配有指标速查和适用条件。可直接在线阅读全文，也可另行下载 Word 文件进行批注和打印。
 
-[下载 Word 指南](docs/downloads/guide.docx)
+[在线阅读 Word 指南](https://qingkongwanli0l.github.io/annual-report-fraud-guide/guide.html) · [下载 Word 指南](docs/downloads/guide.docx)
 
 ## 如何使用
 
@@ -61,7 +61,7 @@
 | [知识图谱数据](docs/downloads/graph.json) | JSON | 阅读和复用节点、关系、主题 |
 | [排查脑图网页](https://raw.githubusercontent.com/qingkongwanli0l/annual-report-fraud-guide/main/docs/mindmap.html) | HTML | 保存后直接在浏览器中打开 |
 | [脑图导入文件](docs/downloads/mindmap.md) | Markdown | 在 XMind 中选择“文件 → 导入 → Markdown” |
-| [Word 指南](docs/downloads/guide.docx) | DOCX | 阅读、批注和打印 |
+| [下载 Word 文件](docs/downloads/guide.docx) | DOCX | 批注和打印 |
 
 两个交互网页均可离线使用。也可下载整个仓库，打开 `docs/index.html`，从首页访问全部成果。
 
