@@ -10,9 +10,9 @@
 
 **386 个知识节点 · 728 条关系 · 18 个主题**
 
-将舞弊手法、风险信号、年报披露、核查方法、财务指标与财务影响组织成可浏览的关系网络。可按主题或类型筛选、搜索节点，并查看相邻关系与业务解释，适合从一个异常现象追踪相关排查线索。
+默认展示全部节点与连线，按财务主题着色，节点大小体现连接数量。侧栏支持主题多选、全选与取消全选，也可按节点类型筛选。搜索或点击节点即可查看业务解释与完整关联，支持节点拖动、画布平移、缩放和明暗切换。
 
-[![知识图谱局部预览](docs/assets/graph-preview.png)](https://qingkongwanli0l.github.io/annual-report-fraud-guide/graph.html)
+[![知识图谱完整网络与主题多选](docs/assets/graph-preview.png)](https://qingkongwanli0l.github.io/annual-report-fraud-guide/graph.html)
 
 [在线浏览知识图谱](https://qingkongwanli0l.github.io/annual-report-fraud-guide/graph.html) · [下载离线网页](https://raw.githubusercontent.com/qingkongwanli0l/annual-report-fraud-guide/main/docs/graph.html) · [下载图谱数据](docs/downloads/graph.json)
 
