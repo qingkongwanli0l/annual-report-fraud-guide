@@ -32,6 +32,16 @@
 
 [在线阅读 Word 指南](https://qingkongwanli0l.github.io/annual-report-fraud-guide/guide.html) · [下载 Word 指南](docs/downloads/guide.docx)
 
+## 生产 Agent 接入
+
+[单份年报财务舞弊风险排查包](agent/annual-report-fraud-review/README.md)提供可移植的规则知识库、分析方法、标准 Skill 入口、PDF 取证、十进制计算、底稿校验与 Word 导出。支持工具调用的 Agent 可以直接集成，不绑定模型供应商或运行平台。
+
+全部 101 条规则补充了适用条件、所需披露、执行步骤、正常解释、完成条件和关联规则。公司事实严格限定在输入的一份年报 PDF 内；未披露、不可读和未完成项目分别保留，不输出未经验证的舞弊概率。
+
+[下载完整分析包](docs/downloads/annual-report-fraud-review.zip) · [接入说明](agent/annual-report-fraud-review/README.md) · [规则 JSON](agent/annual-report-fraud-review/knowledge/rules.json) · [底稿契约](agent/annual-report-fraud-review/references/contract.md)
+
+当前验证使用合成材料覆盖取数、计算、来源引用、覆盖状态和报告导出；真实企业的检出率与误报率尚未经过独立专家样本验证，生产启用前需按接入说明进行专业验收。
+
 ## 如何使用
 
 1. **从图谱找联系**：围绕收入、现金流、资产负债或并购等异常，查看关联手法和影响。

@@ -2,3 +2,6 @@
 Thumbs.db
 ~$*
 *.tmp
+__pycache__/
+*.pyc
+agent/annual-report-fraud-review/run/
