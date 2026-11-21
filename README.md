@@ -32,6 +32,12 @@
 
 [在线阅读 Word 指南](https://qingkongwanli0l.github.io/annual-report-fraud-guide/guide.html) · [下载 Word 指南](docs/downloads/guide.docx)
 
+## 单份年报的二元判定提示词
+
+将[完整提示词](docs/downloads/annual-report-fraud-prompt.md)复制到支持读取 PDF 的模型，附上一家企业一个年度的完整年报，即可要求它只返回 `0` 或 `1`。提示词内含交易机制、行业与生命周期分析、舞弊三角、会计及审计复核方法，以及 101 条排查索引和 14 项指标。规则 JSON、知识图谱和 Word 指南可按需附加。
+
+`1` 表示年报中的确凿证据能将具体故意行为、财务报告影响、主体与目标年度对应起来。`0` 表示在该份年报的证据范围内判定非财务舞弊，包括仍有嫌疑但未证实的情形。接入生产系统时，先确认 PDF 可读取、主体年度可识别、上下文能覆盖全文。缺件、文件损坏或任务中断应记录为调用失败并重试。只接受全文恰为一个半角 `0` 或 `1` 的有效响应。
+
 ## 生产 Agent 接入
 
 [单份年报财务舞弊风险排查包](agent/annual-report-fraud-review/README.md)提供可移植的规则知识库、分析方法、标准 Skill 入口、PDF 取证、十进制计算、底稿校验与 Word 导出。支持工具调用的 Agent 可以直接集成，不绑定模型供应商或运行平台。
